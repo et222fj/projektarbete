@@ -1,0 +1,79 @@
+/* basfärger:
+bakgrundfsärg: #FEFEFE
+Blåfärg: #213f9A
+rödfärg: #e71e24
+*/
+
+body { 
+background-color:#FEFEFE;
+Font: Verdana sans-serif;
+font-size:1em;
+}
+
+
+#header {
+background-image: url(../pics/headern.png);
+background-repeat: no-repeat;
+background-size: 100% 120px;
+height:110px;
+min-width:1500px;
+margin:-20px -20px -1px -20px ;
+}
+
+/**************************Navigation********************************/
+
+
+#start li {
+float:left;  
+list-style-type: none;
+margin-left:50px;
+margin-top: -16px;
+margin-right:-20px;
+}
+
+#start li a{
+display: block;
+padding: 1px 150px 10px 74px;
+text-decoration: none;
+background-image: url(../pics/start.png);   
+background-repeat: no-repeat;
+}
+
+#service li {
+float:left;  
+list-style-type: none;
+margin-left:20px;
+margin-top: -16px;
+}
+
+#service li a{
+display: block;
+padding: 1px 150px 10px 60px;
+text-decoration: none;
+background-image: url(../pics/service.png);   
+background-repeat: no-repeat;
+}
+
+#kontakt li {
+float:left;  
+list-style-type: none;
+margin-left:-5px;
+margin-top: -16px;
+}
+
+#kontakt li a{
+display: block;
+padding: 1px 150px 10px 52px;
+text-decoration: none;
+background-image: url(../pics/kontakt.png);   
+background-repeat: no-repeat;
+}
+
+
+/**************content**************/
+#content{
+margin-top: 100px;     
+    
+}
+
+
