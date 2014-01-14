@@ -12,68 +12,104 @@ font-size:1em;
 
 
 #header {
-background-image: url(../pics/headern.png);
+background-image: url(../pics/logga.png);
 background-repeat: no-repeat;
 background-size: 100% 120px;
-height:110px;
+height:120px;
 min-width:1500px;
 margin:-20px -20px -1px -20px ;
+text-align: center;
+color: white;
+box-shadow: 5px 4px 5px #A4A4A4;
 }
 
 /**************************Navigation********************************/
 
+#nav li a{
+display: block;
+font-family: Verdana;
+color:#EAE7D2;
+text-align: center;
+font-size:1.1em;
+text-transform: capitalize;
+background-image: url(../pics/blues.png);
+background-repeat: no-repeat;
+width:250px;
+height: 40px;
+padding: 1px 1px 7px 1px;
+text-decoration: none;
+}
 
-#start li {
-float:left;  
+
+#nav li {
+float:left;   
 list-style-type: none;
+}
+
+#nav ul {
+font-weight: normal;
+text-align: center;
+float: left;
+margin-top:-1px ;
+height: 30px;
 margin-left:50px;
-margin-top: -16px;
-margin-right:-20px;
 }
 
-#start li a{
-display: block;
-padding: 1px 150px 10px 74px;
-text-decoration: none;
-background-image: url(../pics/start.png);   
+
+#nav .active a {
+color:white;
+background-image: url(../pics/red.png);
 background-repeat: no-repeat;
+width:250px;
+height:40px;
 }
-
-#service li {
-float:left;  
-list-style-type: none;
-margin-left:20px;
-margin-top: -16px;
-}
-
-#service li a{
-display: block;
-padding: 1px 150px 10px 60px;
-text-decoration: none;
-background-image: url(../pics/service.png);   
-background-repeat: no-repeat;
-}
-
-#kontakt li {
-float:left;  
-list-style-type: none;
-margin-left:-5px;
-margin-top: -16px;
-}
-
-#kontakt li a{
-display: block;
-padding: 1px 150px 10px 52px;
-text-decoration: none;
-background-image: url(../pics/kontakt.png);   
-background-repeat: no-repeat;
+#nav ul li a:hover
+{
+color:white;
+font-size:1.2em;
+	
 }
 
 
 /**************content**************/
-#content{
-margin-top: 100px;     
-    
+#container
+{
+width:1100px;
+max-height:600px ;
+overflow: auto;
+margin: 0 auto;
 }
 
+#huvudtext{
+float:left;
+width:550px;
+border-left: #D8D8D8 solid 1px;
+padding-left:20px;
+}
+
+#huvudtext img { 
+float: left;
+padding-right: 5px;}
+
+#sidotext{
+float:right;
+width:300px;
+margin-right:50px;
+border-right: #D8D8D8 solid 1px;
+padding-right:20px;
+}
+H2{
+color:red;    
+}
+
+
+#footer{
+background-image: url(../pics/footer.png);
+background-repeat: no-repeat;    
+background-size: 100% 120px;
+height:120px;
+min-width:1500px;
+margin-left:-20px;
+margin-right:-10px;
+}
 
