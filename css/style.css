@@ -38,8 +38,9 @@ margin-right:10%;
 margin-top:-15px;
 width: 100px;
 height: 60px;
-background-image: url(../pics/massor.png);
- background-position: 0 -575px;
+background-image: url(../pics/bilar.png);
+background-size:100px 80px ;
+
 }    
     
     
@@ -83,8 +84,8 @@ height:29px;
 }
 
 #nav ul li a:hover{
-color:white;
-font-size:1.1em;
+color:gray;
+font-size:1.2em;
 width:170px;
 height:29px;
 }    
@@ -115,7 +116,7 @@ box-shadow: inset 0px -1px 21px 0px rgba(50, 50, 50, 1);
 
 #bildgubbe{
 position: relative;    
-top: 405px ;
+top: 407px ;
 left:20px;
 }
 
@@ -150,19 +151,33 @@ H2{
 color:#DF0101;    
 }
 
+#christos{
+background-image:url(../pics/massor.png);   
+background-position: 0 0; 
+width: 100px; 
+height: 150px;    
+float:left;
+box-shadow:-7px 0px 3px 0px ;
+padding-left:10px;
+}
+
+
+
+
+
+
 /*******************************************************/
 
 #kontakta{
 float:left;
 width:400px;
 height:530px;
-border-left: #D8D8D8 solid 1px;
 padding-left:60px;
+margin-left:100px;
 }
 
 .formul {
 border:none;
-box-shadow: 0px 2px 13px 0px gray;
 Font: Verdana;
 }
 
@@ -182,7 +197,16 @@ font-size:1.1em;
 line-height: 80%;
 }
 
-
+#verktyg{
+background-image:url(../pics/massor.png);
+background-position: 0 -685px; 
+width: 100px; 
+height: 100px; 
+float:left;
+position: relative;
+right:-350px;
+bottom:-100px;
+}
 
 
 /************************footer*******************************/
