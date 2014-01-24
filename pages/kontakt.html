@@ -4,34 +4,28 @@
            <meta charset="utf-8"/>
            <title> Christos Bilservice - Verkstaden nära dig!</title>
            <link rel="stylesheet" href="../css/style.css"/>
+           <link rel="stylesheet" href="../css/print.css" media="print"/>
     </head>
     <body>
      
     
-    <div id = "header">         
-    <p> hejsvej </p>
-    <a href="http://www.meca.se/sv/MECA~Verkstad.aspx#.Utw5zBARmpo" id="samling"> meca</a>
-    <H1>Christos Bilservice </H1>    
+    <div id = "header">  
+      <img src="../pics/loggan.png" id=loggan alt="logan" width="220" height="65">   
     </div> 
     
-    <div id ="container">
+
     
     <div id="nav">             
            <ul>
                
                
-               <li class="active"><a href="../pages/index.html">Start</a></li>
-               <li class="active"><a href="../pages/service.html">Service</a></li>
-               <li><a href="../pages/kontakt.html"> Kontakt</a></li>
+               <li ><a href="../pages/index.html">Start</a></li>
+               <li ><a href="../pages/service.html">Service</a></li>
+               <li class="active"><a href="../pages/kontakt.html"> Kontakt</a></li>
             </ul>
-    </div>       
+    </div> <!--NAV-->      
   
-    
-    <div id="rightside"></div>
-    <div id="leftside">
-          <img src="../pics/gubbee.png" id=bildgubbe alt="bildpågubbe" width="250" height="250">
-    </div>
-  
+    <div id ="container">
     
     <div id="content">  
     <div id="kontakta">
@@ -52,20 +46,27 @@
                <p>Skriv ditt meddelande:</p>
                <textarea name="meddelande" rows="5" cols="30">...
                </textarea>
-        <!--radioknappar-->
-               <p><input type="radio" name="svar via" value="mini"/>
-                Kontakt via mail </p>
-               
-               <p><input type="radio" name="svar via" value="midi"/>
-               Kontakt via telefon</p>
-               
+        <!--drop-down meny -->
+ 
+  
+             <p>Hur vill du bli kontaktad?</p>
+             <select id="minlista" onchange="kontaktsätt()">
+             <option>Via mobiltelefon</option>
+             <option>Via mail</option>
+            </select>
+
+
+
         <!-- skicka knappen -->      
                <input type="submit" name="knapp" value="skicka Meddelandet" />     
             </fieldset>   
                
             </form>
             
+            <div id="snabbbil"></div>
+            
     </div>  <!--kontakta slutar -->    
+   
     
     <div id="adress">
             <h2> Adress</h2>
@@ -87,6 +88,9 @@
     
 
     <div id="verktyg"> </div>
+
+
+
    </div> <!--content -->
     </div> <!--container slutar -->    
     
@@ -98,9 +102,9 @@
          <a href="../pages/service.html" class="third">Service </a>
          <a href="http://www.okq8.se/Kort" class="fourth">Betalning </a>
         
-        
+      
     </div>    
-        
+   <script src="../script/java.js"></script>        
     </body>
 </html>
     

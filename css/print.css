@@ -1,0 +1,33 @@
+
+
+#kontakta{
+display: none;
+}    
+
+#leftside{
+display: none;
+}
+#rightside{
+display: none;   
+}
+
+#nav{
+display: none;    
+}
+
+#adress{
+position:relative;
+right: 250px;
+border: dotted 1px;
+}
+
+#verktyg{
+display:none;    
+}
+
+#content {color: black;}
+h1,h2,h3,h4 {color: black;}
+a:link, a:visited {color:black;}
+
+a:after  { content:" [" attr(href) "] "; }   
+    
