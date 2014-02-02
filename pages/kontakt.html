@@ -26,25 +26,45 @@
     </div> <!--NAV-->      
   
     <div id ="container">
+     <!--dropdown meny-->
+ 
+  <div id ="dropdown" class="show">
+      <p> Följ oss</p>
+      <div id="pil"> </div>
+  </div>
+  
+    <div id="hide" class="hide"> 
+     <img src="../pics/gilla/facebook.png" id=facebook alt="följfacebook" width="30" height="30">
+     <img src="../pics/gilla/twitter.png" id=twitter alt="twitter" width="30" height="30">   
+     
+    </div> <!--hide slutar --> 
+   
+    
     
     <div id="content">  
     <div id="kontakta">
         
-            <H2> Kontaka mig</H2>
+            <H2> Kontaka oss</H2>
             <form method="post" action="mailto:e.t-6@hotmail.com">
             <fieldset class="formul"> 
         <!--litet skrivfält-->
                <p> Namn:
-               <input type="text" name="fråga"   /></p>
+               <input type="text" name="fråga" class="namn"   /></p>
        
         <!--litet skrivfält-->
                <p> Mobilnummer:
-               <input type="text" name="fråga" /></p>
+               <input type="text" name="fråga" class="mobil"  /></p>
+         
+         
+         <!--litet skrivfält-->
+               <p> Bilens Regestreringsnummer:
+               <input type="text" name="fråga"  class="reg"/></p>
+         
          
          
          <!--stort skrivfält-->  
-               <p>Skriv ditt meddelande:</p>
-               <textarea name="meddelande" rows="5" cols="30">...
+               <p>Skriv kortfattat bilens problem här:</p>
+               <textarea name="meddelande" rows="6" cols="34" class="text">...
                </textarea>
         <!--drop-down meny -->
  
@@ -82,8 +102,19 @@
             <p> Tisdag kl 06:00 - 17.00</p>    
             <p> Onsdag-Torsdag kl 06:00 - 16:30</p>    
             <p> Fredag: 06:00 - 15:00</p>    
+  
+  
+   <!-- Karta  -->
+   
+   <div id="map_canvas"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+  
+  
     </div> <!--adress slutar här -->  
     
+    
+  
+  
     <div id="bilbild"> </div>    
     
 
@@ -97,14 +128,16 @@
     <div id="footer">     
          
          
-         <a href="kontakt.html#öppettider" class="first"> Öppettider </a>
-         <a href="http://www.okq8.se/Hyrbil" class="second">Hyrbilar</a> 
-         <a href="../pages/service.html" class="third">Service </a>
-         <a href="http://www.okq8.se/Kort" class="fourth">Betalning </a>
-        
+           <ul>
+             <li> <a href="kontakt.html#öppettider"> Öppettider </a>  </li>
+             <li>  <a href="http://www.okq8.se/Hyrbil" >Hyrbilar</a>   </li> 
+             <li> <a href="../pages/service.html" >Service </a> </li>
+             <li> <a href="http://www.okq8.se/Kort">Betalning </a> </li>
+         </ul>
       
     </div>    
    <script src="../script/java.js"></script>        
+   <script src="../script/map.js"></script> 
     </body>
 </html>
     
