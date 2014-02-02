@@ -1,29 +1,15 @@
 
 
-#kontakta{
-display: none;
-}    
-
-#leftside{
-display: none;
-}
-#rightside{
-display: none;   
-}
 
 #nav{
 display: none;    
 }
 
-#adress{
-position:relative;
-right: 250px;
-border: dotted 1px;
+
+#dropdown{
+display: none;    
 }
 
-#verktyg{
-display:none;    
-}
 
 #content {color: black;}
 h1,h2,h3,h4 {color: black;}
